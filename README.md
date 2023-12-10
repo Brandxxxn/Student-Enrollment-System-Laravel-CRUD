@@ -1,5 +1,3 @@
-Certainly! Here's the README in English:
-
 # Web Development Enrollment System with Laravel
 
 This is a web enrollment system project developed in Laravel, a web application that allows managing student enrollment in web development courses. The system includes functionalities to manage users, students, courses, enrollments, teachers, and schedules.
@@ -16,7 +14,7 @@ Make sure you have the following requirements installed in your development envi
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/web-development-enrollment.git
+   git clone https://github.com/ruta-proyecto.git
    ```
 
 2. **Install Dependencies:**
@@ -68,9 +66,7 @@ The system uses the following tables in the database:
 
 Enjoy building your web development enrollment system with Laravel!
 
----
-
-Regarding the list of team members:
+## Regarding the list of team members:
 - Angel Patiño
 - Brandon Bermello
 - Laylin Bohorquez
