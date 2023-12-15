@@ -8,7 +8,6 @@ use Throwable;
 class Handler extends ExceptionHandler
 {
     /**
-<<<<<<< HEAD
      * A list of exception types with their corresponding custom log levels.
      *
      * @var array<class-string<\Throwable>, \Psr\Log\LogLevel::*>
@@ -28,9 +27,6 @@ class Handler extends ExceptionHandler
 
     /**
      * A list of the inputs that are never flashed to the session on validation exceptions.
-=======
-     * The list of the inputs that are never flashed to the session on validation exceptions.
->>>>>>> f3520ab17d4629c7c30742bb2f2ecd2b3537f1fe
      *
      * @var array<int, string>
      */
@@ -42,15 +38,10 @@ class Handler extends ExceptionHandler
 
     /**
      * Register the exception handling callbacks for the application.
-<<<<<<< HEAD
      *
      * @return void
      */
     public function register()
-=======
-     */
-    public function register(): void
->>>>>>> f3520ab17d4629c7c30742bb2f2ecd2b3537f1fe
     {
         $this->reportable(function (Throwable $e) {
             //
